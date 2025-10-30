@@ -1,0 +1,292 @@
+body{
+    margin : 0;
+}
+
+
+header{
+    background-color: skyblue;
+    padding : 20px 0;
+}
+
+#logo{
+    width : 100px;
+    height : 100px;
+    background-color: red;
+    font-size: 64px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 50px;
+    float : left;
+}
+
+a{
+    text-decoration: none;
+    color : black;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin : 0;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav{
+    display : table;
+    height : 100px;
+}
+
+nav ul{
+    display: table-cell;
+    vertical-align: middle;
+    list-style-type: none;
+    padding : 0 0 0 50px;
+}
+
+nav ul li{
+    float : left;
+    padding : 20px;
+}
+
+.content,
+footer{
+    width : 980px;
+    margin : 0 auto;
+}
+
+#main {
+    background: #ebebeb;
+    padding : 40px 0;
+}
+
+#main .inner{
+    padding-bottom: 20px;;
+}
+
+#main article h2{
+    margin : 0 0 20px;
+}
+
+.clearfix{
+    clear : both;
+}
+
+#main .articles{
+    float: left;
+    width : 650px;
+}
+
+#main article{
+    margin-bottom : 20px;
+}
+
+#main .articles .excerpt{
+    float : right;
+    width : 365px;
+}
+
+#main .articles .bottom{
+    border-top: 1px solid #9999;
+    color : #999;
+    padding : 20px 0 ;
+    float : left;
+    width : 100%;
+}
+
+#main .articles .bottom .comments{
+    float : right;
+}
+
+#main .articles .bottom > div{
+    float : left;
+    padding : 0 20px;
+}
+
+#main .sidebar{
+    float : right;
+    width : 260px;
+    min-height: 100px;
+    background-color: white;
+    padding : 20px;
+}
+
+#main .sidebar form{
+    position: relative;
+}
+
+#main .sidebar input{
+    padding: 10px;
+    padding-right : 30px;
+    border : 1px solid #ddd;
+    width : 220px;
+    height: auto;
+}
+
+#main .sidebar input[type="submit"]{
+    background: url('../images/search-icon.jpg');
+    background-repeat: no-repeat;
+    width : 25px;
+    height : 25px;
+    text-indent: -9999px;
+    border: none;
+    position: absolute;
+    top : 5px;
+    right : 0;
+}
+
+#main .sidebar a{
+    color : #158ebf
+}
+
+#main .sidebar ul li {
+    padding : 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+#main .sidebar ul li:last-child{
+    border-bottom : none;
+}
+
+#main .sidebar h3{
+    margin : 40px 0 20px;
+}
+
+footer {
+    padding: 20px 0;
+}
+
+footer .copyright{
+    float : left;
+}
+
+footer .contact{
+    float : right;
+}
+
+footer a{
+    color : #158bef
+}
+
+/* Single Post */
+
+#main .single-post{
+    float :left;
+    width : 610px;
+    padding : 20px;
+    background-color: white;
+}
+
+#main h1{
+    margin : 0 0 20px;
+    font-size : 32px;
+}
+
+.single-post .comments {
+    margin : 50px;
+}
+
+.comments .single-comment{
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px ;
+    padding: 10px 0;
+}
+
+.comments .avatar{
+    float : left;
+}
+
+.comments .avatar img{
+    margin-right: 30px;
+}
+
+.comments .details{
+    float : left;
+}
+
+p{
+    margin : 0 0 20px;
+}
+
+h3.add-comment{
+    margin-top : 50px;
+}
+
+.comments label{
+    display: inline-block;
+    width : 100%;
+}
+
+form input{
+    width : 300px;
+    height : 30px;
+    padding : 0 10px;
+    font-size: 14px;
+    border : 1px solid #dedede;
+}
+
+form .input-row{
+    margin : 5px 0;
+}
+
+form textarea{
+    width : 100%;
+    height : 300px;
+    font-size: 14px;
+    border : 1px solid #dedede;
+    box-sizing: border-box;
+}
+
+form .input-row .btn-comment{
+    font-size: 20px;
+    color : #5c5c5c;
+    width : auto;
+    padding : 10px 20px;
+    cursor: pointer;
+}
+
+.btn-form{
+    font-size: 20px;
+    color : #5c5c5c;
+    width : auto;
+    padding : 10px 20px;
+    cursor: pointer;
+}
+
+.btn-comment:hover{
+    background-color: #999;
+}
+
+/* Contact */
+
+.contact{
+    background-color: white;
+    padding : 20px;
+}
+
+.contact form{
+    float : left;
+    width : 600px;
+    margin-right: 50px;
+}
+
+.contact address{
+    float : right;
+}
+
+.contact address .company{
+    font-size : 25px;
+    margin-bottom: 25px;
+}
+
+.contact form input{
+    width : 100%;
+    box-sizing: border-box;
+}
+
+.contact address a {
+    margin-top : 30px;
+    color : #158ebf
+}
